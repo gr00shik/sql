@@ -6,7 +6,7 @@ FROM
     users,
     phones
 WHERE
-   user.login = phones.login
+   login = phones.login
         AND phones.office = 'OFFICE';
                 
 SELECT 
